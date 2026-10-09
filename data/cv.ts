@@ -44,6 +44,25 @@ export const research = [
     ],
   },
   {
+    title: "PREF",
+    subtitle:
+      "A multi-dimensional prototype reliability evaluation framework for clinical ECG classification",
+    period: "2026",
+    tags: ["Explainable AI", "Prototype Networks", "ECG", "Reliability"],
+    points: [
+      "Built a model-agnostic methodology for testing whether prototype-based neural network explanations can be trusted in clinical ECG classification.",
+      "Evaluates explanations along five dimensions: intra-class consistency, perturbation robustness, patient-level reproducibility (near-duplicate tests), projection alignment and cross-dataset external validation.",
+      "Instantiated on ProtoECGNet, trained on PTB-XL and validated zero-shot on CPSC-2018.",
+    ],
+    note: "Started during research internship at Edge Hill University",
+    code: "https://github.com/Huma-collab/Prototype-Reliability-Evaluation-Framework-",
+    metrics: [
+      { k: "Dimensions", v: "5" },
+      { k: "Datasets", v: "PTB-XL · CPSC" },
+      { k: "Model", v: "ProtoECGNet" },
+    ],
+  },
+  {
     title: "Federated Stress Recognition",
     code: "https://github.com/Huma-collab/federated-stress-sensing",
     subtitle:
