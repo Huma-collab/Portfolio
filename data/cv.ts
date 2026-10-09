@@ -43,7 +43,7 @@ export const research = [
     period: "2025 – Present",
     tags: ["Interpretable ML", "ECG", "Gabor kernels", "External validation"],
     figure: {
-      src: "public/figures/pick-net.webp",
+      src: "/figures/pick-net.webp",
       alt: "PICK-Net graphical abstract: unconstrained ECG models versus PICK-Net's frequency-bounded Gabor kernels, PACIM co-occurrence module, and the key finding that bounded kernels avoid frequency-scale collapse.",
       caption:
         "Graphical abstract. Without the physiological frequency bound, learned kernels collapse toward non-physiological frequencies; with it, they stay in the 0.5–40 Hz ECG range and remain interpretable.",
