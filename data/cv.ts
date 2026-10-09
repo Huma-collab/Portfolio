@@ -173,7 +173,7 @@ export const experience = [
     period: "Dec 2024 – Feb 2025",
     focus: "Temperature prediction from muon & meteorological data",
     points: [
-      "Paid research internship under Prof. Nan Chen on data-driven temperature prediction.",
+      "Paid research internship under Prof. Chen Nan on data-driven temperature prediction.",
       "Cleaned large meteorological and muon datasets and engineered rolling, rate-of-change and outlier-filtered features.",
       "Trained and analysed an XGBoost regressor (MSE, R², error analysis and feature importance).",
     ],
@@ -184,7 +184,7 @@ export const experience = [
     place: "Lahore, Pakistan",
     period: "Aug 2022 – Aug 2024",
     points: [
-      "Two years building production .NET Core microservices, Angular and WPF applications for large enterprise systems.",
+      "Built .NET Core microservices, Angular and WPF applications, gaining depth in debugging and large-scale system design.",
     ],
   },
   {
@@ -238,7 +238,7 @@ export const skills = [
   { group: "Programming", items: ["Python", "C#", "JavaScript", "SQL"] },
   {
     group: "ML / DL",
-    items: ["PyTorch", "TensorFlow / Keras", "Flower (FL)", "scikit-learn", "XGBoost", "OpenCV"],
+    items: ["PyTorch", "TensorFlow / Keras", "Flower (FL)", "XGBoost", "OpenCV"],
   },
   {
     group: "Methods",
