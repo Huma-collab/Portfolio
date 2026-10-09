@@ -67,7 +67,7 @@ h1 {
   margin: 24px 0 32px;
 }
 h1 em { font-style: italic; color: var(--accent); }
-.lede { font-family: var(--serif); font-size: clamp(1.3rem, 2.6vw, 1.75rem); line-height: 1.35; max-width: 30ch; }
+.lede { font-family: var(--serif); font-size: clamp(1.3rem, 2.6vw, 1.75rem); line-height: 1.35; max-width: 34ch; }
 .summary { color: var(--muted); max-width: 62ch; margin-top: 18px; }
 .cta { display: flex; gap: 12px; margin-top: 32px; flex-wrap: wrap; }
 .btn {
@@ -164,7 +164,7 @@ h3 { font-family: var(--serif); font-weight: 600; font-size: 1.35rem; line-heigh
 
 /* contact */
 .contact { margin-top: 120px; padding-top: 64px; padding-bottom: 64px; border-top: 2px solid var(--ink); }
-.contact h2 { max-width: 22ch; margin: 16px 0 32px; }
+.contact h2 { max-width: 26ch; margin: 16px 0 32px; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 12px 32px; font-size: 1.05rem; }
 .contact-links a { color: var(--accent); text-underline-offset: 4px; }
 .contact-links span { color: var(--muted); }
@@ -185,3 +185,43 @@ h3 { font-family: var(--serif); font-weight: 600; font-size: 1.35rem; line-heigh
   .metrics { gap: 24px; }
   .section { padding-top: 80px; }
 }
+
+/* ---------- PhD seeking, interests ---------- */
+.seeking {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 7px 16px 7px 12px; border-radius: 999px;
+  background: var(--accent-soft); color: var(--accent);
+  font-weight: 600; font-size: 0.9rem; text-decoration: none;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+}
+.seeking:hover { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+.hero h1 { margin: 22px 0 14px; }
+.hero .eyebrow { margin-bottom: 28px; }
+.interests { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 22px; max-width: 70ch; }
+
+/* ---------- research figures ---------- */
+.fig { margin: 24px 0 4px; }
+.fig-frame { display: block; cursor: zoom-in;
+  background: #ffffff; border: 1px solid var(--line); border-radius: 12px;
+  padding: 12px; overflow: hidden;
+}
+.fig-frame img { display: block; width: 100%; height: auto; }
+.fig figcaption { color: var(--muted); font-size: 0.85rem; margin-top: 10px; max-width: 80ch; }
+
+/* ---------- publications ---------- */
+.pub-intro { color: var(--muted); margin: -16px 0 20px; }
+.pub-authors { margin-top: 6px; font-size: 0.95rem; }
+.pub-authors .me { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.pub-meta { margin-top: 4px; }
+
+/* ---------- contact ---------- */
+.contact h2 { margin-bottom: 14px; }
+.contact-detail { color: var(--muted); max-width: 60ch; margin-bottom: 28px; }
+
+/* ---------- small screens ---------- */
+@media (max-width: 820px) {
+  .stat-k { font-size: 0.8rem; }
+  .stat-v { font-size: 1.9rem; }
+  .fig-frame { padding: 6px; border-radius: 8px; }
+}
+.fig-hint { color: var(--teal); }
