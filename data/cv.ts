@@ -47,8 +47,8 @@ export const research = [
       alt: "PICK-Net graphical abstract: unconstrained ECG models versus PICK-Net's frequency-bounded Gabor kernels, PACIM co-occurrence module, and the key finding that bounded kernels avoid frequency-scale collapse.",
       caption:
         "Graphical abstract. Without the physiological frequency bound, learned kernels collapse toward non-physiological frequencies; with it, they stay in the 0.5–40 Hz ECG range and remain interpretable.",
-      w: 1736,
-      h: 885,
+      w: 1774,
+      h: 887,
     },
     metrics: [
       { k: "Macro AUC · 5-fold CV", v: "0.919" },
@@ -72,11 +72,11 @@ export const research = [
     tags: ["Explainable AI", "Prototype networks", "ECG", "Evaluation"],
     figure: {
       src: "/figures/pref.webp",
-      alt: "PREF graphical abstract: prototype matching on an ECG, bar charts for consistency, perturbation, reproducibility and alignment, and a cross-dataset generalisation gradient from AFIB 95.7% to CRBBB 2.3%.",
+      alt: "PREF overview in three panels: the problem (prototype explanations are judged on accuracy and visual appeal, not reliability), the contribution (three guiding principles and four reliability dimensions), and validation on ProtoECGNet with PTB-XL and CPSC-2018, with key findings.",
       caption:
-        "Graphical abstract. The four reliability dimensions, and the cross-dataset gradient: rhythm prototypes transfer to a new hospital, morphology prototypes largely do not.",
-      w: 1658,
-      h: 694,
+        "Overview. Existing evaluation checks whether prototype models predict well and look plausible; PREF tests whether their explanations are reliable, along four dimensions, and validates this on ProtoECGNet across two datasets.",
+      w: 1536,
+      h: 1024,
     },
     metrics: [
       { k: "Prototypes audited", v: "1,085" },
@@ -103,8 +103,8 @@ export const research = [
       alt: "Federated stress sensing pipeline: sense seven behavioural channels on-device, learn a personalised LSTM with self-attention, aggregate weights with FedAvg across 87 clients, predict stress with weighted F1 0.632.",
       caption:
         "Graphical abstract. Seven sensor channels are encoded on each phone; only model weights reach the FedAvg server.",
-      w: 1431,
-      h: 460,
+      w: 2000,
+      h: 619,
     },
     metrics: [
       { k: "Weighted F1 · data on-device", v: "0.632" },
