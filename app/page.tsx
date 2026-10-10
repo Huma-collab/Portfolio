@@ -284,7 +284,7 @@ export default function Home() {
 
         {/* CONTACT */}
         <section id="contact" className="wrap contact">
-          <p className="mono eyebrow">PhD applications · 2027</p>
+          <p className="mono eyebrow">PhD · Research internships</p>
           <h2>{profile.openTo}</h2>
           <p className="contact-detail">{profile.openToDetail}</p>
           <div className="contact-links">
