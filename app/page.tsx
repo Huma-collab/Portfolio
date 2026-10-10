@@ -91,6 +91,9 @@ export default function Home() {
             <a className="btn" href={profile.linkedin} target="_blank" rel="noreferrer">
               LinkedIn ↗
             </a>
+            <a className="btn" href={profile.orcid} target="_blank" rel="noreferrer">
+              ORCID ↗
+            </a>
           </div>
         </section>
 
@@ -295,6 +298,9 @@ export default function Home() {
             </a>
             <a href={profile.linkedin} target="_blank" rel="noreferrer">
               LinkedIn ↗
+            </a>
+            <a href={profile.orcid} target="_blank" rel="noreferrer">
+              ORCID ↗
             </a>
           </div>
         </section>
