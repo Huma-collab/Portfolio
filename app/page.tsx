@@ -232,10 +232,10 @@ export default function Home() {
           </ol>
         </section>
 
-        {/* EDUCATION + SKILLS */}
-        <section className="wrap section split">
-          <div>
-            <SectionHead index="04" title="Education" />
+        {/* EDUCATION */}
+        <section className="wrap section">
+          <SectionHead index="04" title="Education" />
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", columnGap: 48 }}>
             {education.map((e) => (
               <div key={e.school} className="edu">
                 <p className="mono period">{e.period}</p>
@@ -247,8 +247,13 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div>
-            <SectionHead index="05" title="Skills" />
+        </section>
+
+        {/* SKILLS */}
+        <section id="skills" className="wrap section">
+          <SectionHead index="05" title="Skills" />
+          <p className="pub-intro">Drawn from the code in my research repositories.</p>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", columnGap: 48 }}>
             {skills.map((s) => (
               <div key={s.group} className="skill">
                 <p className="mono period">{s.group}</p>
