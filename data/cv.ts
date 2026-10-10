@@ -10,10 +10,11 @@ export const profile = {
   academicEmail: "huma.saira@mail.nwpu.edu.cn",
   linkedin: "https://www.linkedin.com/in/huma-sairaa36aaa1b4",
   github: "https://github.com/Huma-collab",
+  orcid: "https://orcid.org/0009-0005-4676-684X",
   mission:
     "I build machine learning for health that clinicians can check, so its decisions can be verified rather than taken on trust.",
   summary:
-    "M.S. Computer Science student at Northwestern Polytechnical University, advised by Prof. Hongbo Ni. My work asks one question from three directions: can a model's internals be tied to physiology (PICK-Net), can its explanations be shown to be reliable (PREF), and can it learn from personal health data without collecting it (federated stress sensing)? I am looking for a PhD position starting in 2027, and for short-term research internships before then, to continue this work on interpretable, reliable and privacy-preserving ML for clinical and mobile health.",
+    "M.S. Computer Science student at Northwestern Polytechnical University on a fully funded scholarship, advised by Prof. Hongbo Ni. My work asks one question from three directions: can a model's internals be tied to physiology (PICK-Net), can its explanations be shown to be reliable (PREF), and can it learn from personal health data without collecting it (federated stress sensing)? I am looking for a PhD position starting in 2027, and for short-term research internships before then, to continue this work on interpretable, reliable and privacy-preserving ML for clinical and mobile health.",
   interests: [
     "Interpretable ML",
     "Reliability of explanations",
@@ -224,7 +225,7 @@ export const education = [
     school: "Northwestern Polytechnical University",
     place: "Xi'an, China",
     period: "Expected 2027",
-    detail: "Advisor: Prof. Hongbo Ni",
+    detail: "Fully funded scholarship · Advisor: Prof. Hongbo Ni",
   },
   {
     degree: "B.Sc. Electrical Engineering (Computer Specialization)",
