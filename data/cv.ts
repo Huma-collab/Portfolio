@@ -5,7 +5,7 @@ export const profile = {
   name: "Huma Saira",
   role: "ML Researcher · Trustworthy AI for Health",
   location: "Xi'an, China",
-  seeking: "Seeking a PhD position · 2027 entry",
+  seeking: "Seeking a PhD position (2027) & research internships",
   email: "humasaira028@gmail.com",
   academicEmail: "huma.saira@mail.nwpu.edu.cn",
   linkedin: "https://www.linkedin.com/in/huma-sairaa36aaa1b4",
@@ -13,7 +13,7 @@ export const profile = {
   mission:
     "I build machine learning for health that clinicians can check, so its decisions can be verified rather than taken on trust.",
   summary:
-    "M.S. Computer Science student at Northwestern Polytechnical University, advised by Prof. Hongbo Ni. My work asks one question from three directions: can a model's internals be tied to physiology (PICK-Net), can its explanations be shown to be reliable (PREF), and can it learn from personal health data without collecting it (federated stress sensing)? I am applying for PhD positions to continue this research on interpretable, reliable and privacy-preserving ML for clinical and mobile health.",
+    "M.S. Computer Science student at Northwestern Polytechnical University, advised by Prof. Hongbo Ni. My work asks one question from three directions: can a model's internals be tied to physiology (PICK-Net), can its explanations be shown to be reliable (PREF), and can it learn from personal health data without collecting it (federated stress sensing)? I am looking for a PhD position starting in 2027, and for short-term research internships before then, to continue this work on interpretable, reliable and privacy-preserving ML for clinical and mobile health.",
   interests: [
     "Interpretable ML",
     "Reliability of explanations",
@@ -23,9 +23,9 @@ export const profile = {
     "Mobile health sensing",
   ],
   openTo:
-    "I'm looking for a PhD position starting in 2027 in trustworthy machine learning for health.",
+    "I'm looking for a PhD position starting in 2027, and short-term research internships, in trustworthy machine learning for health.",
   openToDetail:
-    "If your group works on interpretable, reliable or privacy-preserving ML for clinical or mobile health data, I'd be glad to hear from you.",
+    "If your group works on interpretable, reliable or privacy-preserving ML for clinical or mobile health data, I'd be glad to hear from you, whether about a PhD, a visiting research internship or a collaboration.",
 };
 
 export const highlights = [
