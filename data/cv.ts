@@ -235,22 +235,67 @@ export const education = [
   },
 ];
 
+// Every item below is backed by code in the three research repositories or by the papers.
 export const skills = [
-  { group: "Programming", items: ["Python", "C#", "JavaScript", "SQL"] },
   {
-    group: "ML / DL",
-    items: ["PyTorch", "TensorFlow / Keras", "Flower (FL)", "XGBoost", "OpenCV"],
-  },
-  {
-    group: "Methods",
+    group: "Deep learning · PyTorch",
     items: [
-      "Interpretable & prototype-based models",
-      "Physiology-guided deep learning",
-      "Federated learning",
-      "Ablation & statistical testing",
-      "External validation",
+      "CNNs (1D & 2D)",
+      "Transformer encoders",
+      "LSTMs",
+      "Multi-head attention",
+      "Prototype networks",
+      "Custom layers (input-adaptive Gabor kernels)",
     ],
   },
-  { group: "Data", items: ["PTB-XL", "CPSC-2018", "College Experience Study"] },
-  { group: "Engineering", items: ["Git / GitHub", "Linux", ".NET microservices", "Angular"] },
+  {
+    group: "GPU training & experiments",
+    items: [
+      "CUDA training on NVIDIA GPUs (RTX 2080 Ti)",
+      "GPU latency & throughput benchmarking",
+      "Reproducible runs (fixed seeds, deterministic cuDNN)",
+      "Multi-run training campaigns on Linux servers (Bash)",
+      "Weights & Biases tracking",
+      "k-fold cross-validation & ablations",
+      "Class-imbalance handling (weighted sampling, pos_weight)",
+      "LR scheduling & gradient clipping",
+    ],
+  },
+  {
+    group: "Federated learning & privacy",
+    items: [
+      "Flower (FedAvg, simulation)",
+      "Weight clipping + Gaussian noise (DP-style)",
+      "Personalised on-device models",
+    ],
+  },
+  {
+    group: "Biomedical signal processing",
+    items: [
+      "12-lead ECG (PTB-XL, CPSC-2018)",
+      "NeuroKit2 (ECG cleaning & processing)",
+      "WFDB",
+      "Butterworth filtering & resampling",
+      "Passive smartphone sensing data",
+    ],
+  },
+  {
+    group: "Statistics & evaluation",
+    items: [
+      "DeLong AUC tests with CIs",
+      "Bootstrap confidence intervals",
+      "Benjamini–Hochberg correction",
+      "Spearman, Kendall & Pearson correlation",
+      "Kruskal–Wallis, Mann–Whitney U, Wilcoxon",
+      "ROC-AUC, F1, external validation",
+    ],
+  },
+  {
+    group: "Classical ML",
+    items: ["scikit-learn", "XGBoost", "TSFEL time-series features", "PCA"],
+  },
+  {
+    group: "Programming & tools",
+    items: ["Python", "NumPy", "pandas", "SciPy", "Matplotlib / Seaborn", "SQL", "Git", "Linux / Bash", "C# / .NET (2 yrs industry)"],
+  },
 ];
