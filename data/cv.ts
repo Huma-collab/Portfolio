@@ -11,6 +11,9 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/huma-sairaa36aaa1b4",
   github: "https://github.com/Huma-collab",
   orcid: "https://orcid.org/0009-0005-4676-684X",
+  photo: "/photo.webp",
+  photoCaption: "Photographed with frozen weights.",
+  footerNote: "Built with Next.js and an unreasonable number of ablation studies.",
   mission:
     "I build machine learning for health that clinicians can check, so its decisions can be verified rather than taken on trust.",
   summary:
@@ -28,6 +31,26 @@ export const profile = {
   openToDetail:
     "If your group works on interpretable, reliable or privacy-preserving ML for clinical or mobile health data, I'd be glad to hear from you, whether about a PhD, a visiting research internship or a collaboration.",
 };
+
+// A little personality. Edit or delete freely.
+export const offTheRecord = [
+  {
+    title: "Seeds 42 and 123",
+    text: "Have trained my models so many times they are basically lab members. Results reported as mean ± SD out of respect.",
+  },
+  {
+    title: "Career pivot",
+    text: "Spent two years debugging .NET in industry. Now I debug gradients, which complain less but explain even less.",
+  },
+  {
+    title: "Professional hazard",
+    text: "I cannot see a correlation without asking whether it survives Benjamini–Hochberg.",
+  },
+  {
+    title: "Core belief",
+    text: "Every heartbeat deserves an explanation, especially the irregular ones.",
+  },
+];
 
 export const highlights = [
   { value: "3", label: "First-author journal papers submitted (2026)" },
