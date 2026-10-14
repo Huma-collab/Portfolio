@@ -9,6 +9,7 @@ import {
   projects,
   education,
   skills,
+  offTheRecord,
 } from "@/data/cv";
 
 const nav = [
@@ -61,6 +62,11 @@ export default function Home() {
       <main id="top">
         {/* HERO */}
         <section className="hero wrap">
+          <figure className="hero-photo">
+            <Image src={profile.photo} alt={`Portrait of ${profile.name}`} width={800} height={960} priority sizes="(max-width: 820px) 160px, 300px" />
+            <figcaption className="mono">{profile.photoCaption}</figcaption>
+          </figure>
+          <div className="hero-main">
           <a href="#contact" className="seeking">
             <span className="dot" /> {profile.seeking}
           </a>
@@ -94,6 +100,7 @@ export default function Home() {
             <a className="btn" href={profile.orcid} target="_blank" rel="noreferrer">
               ORCID ↗
             </a>
+          </div>
           </div>
         </section>
 
@@ -290,6 +297,19 @@ export default function Home() {
           </div>
         </section>
 
+        {/* OFF THE RECORD */}
+        <section className="wrap section">
+          <SectionHead index="07" title="Off the record" />
+          <div className="fun-grid">
+            {offTheRecord.map((f) => (
+              <div key={f.title} className="fun-card">
+                <h3>{f.title}</h3>
+                <p>{f.text}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
         {/* CONTACT */}
         <section id="contact" className="wrap contact">
           <p className="mono eyebrow">PhD · Research internships</p>
@@ -312,7 +332,7 @@ export default function Home() {
       </main>
 
       <footer className="wrap footer mono">
-        © {new Date().getFullYear()} {profile.name}
+        © {new Date().getFullYear()} {profile.name} · {profile.footerNote}
       </footer>
     </>
   );
