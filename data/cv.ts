@@ -11,7 +11,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/huma-sairaa36aaa1b4",
   github: "https://github.com/Huma-collab",
   orcid: "https://orcid.org/0009-0005-4676-684X",
-  photo: "/photo.webp",
+  photo: "/cv_image.png",
   photoCaption: "Photographed with frozen weights.",
   footerNote: "Built with Next.js and an unreasonable number of ablation studies.",
   mission:
