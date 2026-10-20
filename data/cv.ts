@@ -8,7 +8,7 @@ export const profile = {
   seeking: "Seeking a PhD position (2027) & research internships",
   email: "humasaira028@gmail.com",
   academicEmail: "huma.saira@mail.nwpu.edu.cn",
-  linkedin: "https://www.linkedin.com/in/huma-sairaa36aaa1b4",
+  linkedin: "https://www.linkedin.com/in/huma-saira-a36aaa1b4",
   github: "https://github.com/Huma-collab",
   orcid: "https://orcid.org/0009-0005-4676-684X",
   photo: "/cv_image.png",
@@ -53,7 +53,7 @@ export const offTheRecord = [
 ];
 
 export const highlights = [
-  { value: "3", label: "First-author journal papers submitted (2026)" },
+  { value: "3", label: "First-author journal papers under review (2026)" },
   { value: "94%", label: "of in-distribution AUC kept on an unseen hospital dataset (PICK-Net)" },
   { value: "1,085", label: "ECG prototypes audited for reliability (PREF)" },
   { value: "2", label: "Research groups: NWPU (China) and Edge Hill University (UK)" },
@@ -86,7 +86,6 @@ export const research = [
       "With frozen weights on CPSC-2018, an independent hospital dataset, the model retains about 94% of its in-distribution AUC for first-degree AVB (0.885 vs. 0.937). The paper also reports the trade-off openly: PICK-Net trails a ResNet-1D baseline on MI and AVB accuracy.",
     ],
     note: "Advised by Prof. Hongbo Ni · NWPU",
-    code: "https://github.com/Huma-collab/PICK-Net",
   },
   {
     title: "PREF",
@@ -114,7 +113,6 @@ export const research = [
       "External validation on CPSC-2018 reveals a generalisation gradient: rhythm prototypes transfer almost perfectly (AFIB 95.7% retained), while amplitude-dependent morphology prototypes fail (CRBBB 2.3%).",
     ],
     note: "With Nonso Nnamoko & Amr Ahmed · Edge Hill University, UK",
-    code: "https://github.com/Huma-collab/Prototype-Reliability-Evaluation-Framework-",
   },
   {
     title: "Federated Stress Sensing",
@@ -142,7 +140,6 @@ export const research = [
       "Attention weights detect a significant reconfiguration of behaviour after March 2020 (t = 10.66, p < 0.001, n = 82), and aggregation is robust to Gaussian weight noise up to σ = 0.08.",
     ],
     note: "Advised by Prof. Hongbo Ni · NWPU",
-    code: "https://github.com/Huma-collab/federated-stress-sensing",
   },
 ];
 
@@ -151,10 +148,9 @@ export const publications = [
     title:
       "PICK-Net: A Physiology-Guided Input-Adaptive Deep Learning Framework for Interpretable Multi-Condition ECG Classification",
     authors: ["Huma Saira", "Hongbo Ni", "Chuandong Chen", "Pin Li", "Gang Huang"],
-    venue: "Artificial Intelligence in Medicine",
+    venue: "Biomedical Signal Processing and Control",
     year: "2026",
-    status: "Submitted",
-    code: "https://github.com/Huma-collab/PICK-Net",
+    status: "Under review",
   },
   {
     title:
@@ -163,7 +159,6 @@ export const publications = [
     venue: "Biomedical Signal Processing and Control",
     year: "2026",
     status: "Under review",
-    code: "https://github.com/Huma-collab/Prototype-Reliability-Evaluation-Framework-",
   },
   {
     title:
@@ -174,7 +169,6 @@ export const publications = [
     status: "Under review",
     link: "https://doi.org/10.2139/ssrn.7412560",
     linkLabel: "Preprint · SSRN",
-    code: "https://github.com/Huma-collab/federated-stress-sensing",
   },
 ];
 
@@ -258,7 +252,7 @@ export const education = [
   },
 ];
 
-// Every item below is backed by code in the three research repositories or by the papers.
+// Every item below is backed by the research code or the papers.
 export const skills = [
   {
     group: "Deep learning · PyTorch",
