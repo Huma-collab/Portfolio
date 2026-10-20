@@ -164,11 +164,7 @@ export default function Home() {
                 </ul>
                 <div className="rc-foot">
                   {r.note && <p className="mono note">{r.note}</p>}
-                  {r.code && (
-                    <a className="code-link" href={r.code} target="_blank" rel="noreferrer">
-                      View code on GitHub ↗
-                    </a>
-                  )}
+                  <span className="mono code-note">Code will be released upon publication</span>
                 </div>
               </article>
             ))}
@@ -195,14 +191,6 @@ export default function Home() {
                         {" · "}
                         <a href={p.link} target="_blank" rel="noreferrer">
                           {p.linkLabel} ↗
-                        </a>
-                      </>
-                    )}
-                    {p.code && (
-                      <>
-                        {" · "}
-                        <a href={p.code} target="_blank" rel="noreferrer">
-                          Code ↗
                         </a>
                       </>
                     )}
@@ -259,7 +247,7 @@ export default function Home() {
         {/* SKILLS */}
         <section id="skills" className="wrap section">
           <SectionHead index="05" title="Skills" />
-          <p className="pub-intro">Drawn from the code in my research repositories.</p>
+          <p className="pub-intro">Tools and methods used across my research projects.</p>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", columnGap: 48 }}>
             {skills.map((s) => (
               <div key={s.group} className="skill">
